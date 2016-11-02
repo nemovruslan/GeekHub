@@ -63,7 +63,7 @@ public class Validator {
     private static void getValidatePhoneNumber() throws IOException {
         do {
             getInputLine();
-            Pattern pattern = Pattern.compile("(\\+38)?(039|050|063|066|067|068|091|092|093|094|095|096|097|098|099)\\d{7}");
+            Pattern pattern = Pattern.compile("((\\+?[0]*38)?|8)(039|050|063|066|067|068|091|092|093|094|095|096|097|098|099)\\d{7}");
             matcher = pattern.matcher(phone);
         } while (!matcher.matches());
     }
