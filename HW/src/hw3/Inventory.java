@@ -17,7 +17,6 @@ import java.io.InputStreamReader;
  * Created by Ruslan on 23.11.2016.
  */
 public class Inventory {
-//    private AddProduct addProduct = new AddProduct();
 
     private void printMenuToConsole() {
         System.out.println("Choose operation:\n" +
