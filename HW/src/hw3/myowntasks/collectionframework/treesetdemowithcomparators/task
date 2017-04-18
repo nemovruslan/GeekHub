@@ -1,0 +1,13 @@
+Напишите 2 компаратора: ReleaseDateAscComparator и
+
+ReleaseDateDescComparator. При создании TreeSet не указывается компаратор, то должен
+
+работать Natural ordering sorting.
+
+ReleaseDateAscComparator должен сортировать по year с порядком Asc, если год выпуска у авто
+
+одинаковый, то дополнительно сортируем по названию (порядок сортировки Desc).
+
+ReleaseDateDescComparator должен сортировать по year с порядком Desc, если год выпуска у
+
+авто одинаковый, то дополнительно сортируем по названию (порядок сортировки Asc).
